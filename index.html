@@ -4,8 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WDD 231</title>
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
 </head>
 <body>
-    <h1>WDD 231 - Ambao</h1>
+    <header>
+        <img src="images/code-square.svg" alt="Site Logo" width="48" height="48">
+        <span>Site Title</span>
+        <button id="ham-btn" class="hamburger"></button>
+    </header>
+    <nav id="nav-bar" class="navigation">
+        <ul>
+            <li class="active"><a href="#" aria-current="page">Home</a></li>
+            <li><a href="#">Learning Activities</a></li>
+            <li><a href="#">Final Project</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Home</h1>
+    </main>
+    <footer>
+        <div class="icons">
+            <a href="https://github.com/edgiemarielle/wdd231" target="_blank"><img src="images/github.svg" alt="Github Profile" width="16" height="16"></a>
+            <a href="https://www.linkedin.com/in/edgie-marielle-ambao-47a4b13b5/details/education/" target="_blank"><img src="images/linkedin.svg" alt="LinkedIn Profile" width="16" height="16"></a>
+            <a href="https://www.instagram.com/edgiemarielle/" target="_blank"><img src="images/instagram.svg" alt="Instagram Profile" width="16" height="16"></a>
+            <a href="https://www.facebook.com/edgiemarielle/" target="_blank"><img src="images/facebook.svg" alt="Github Profile" width="16" height="16"></a>
+        </div>
+        <p>copyright symbol & year</p>
+        <p>Last Modified</p>
+    </footer>
+    <script src="scripts/navigation.js"></script>
 </body>
 </html>
