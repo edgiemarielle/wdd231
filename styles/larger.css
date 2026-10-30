@@ -8,6 +8,10 @@
         grid-template-columns: 24px auto;
     }
 
+    header span {
+        font-size: 1.3rem;
+    }
+
     .hamburger {
         display: none;
     }
@@ -23,5 +27,56 @@
 
     .navigation a{
         border: none;
+    }
+
+    h1 {
+      padding: 15px;  
+      padding-bottom: 10px;
+      text-align: left;
+    }
+
+    main section h2 {
+        font-size: 1.4rem;
+        padding: 10px;
+    }
+
+    .cards {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+
+    .cards h2 {
+        margin: 0;
+    }
+
+    .photo img {
+        margin-top: 15px;
+    }
+
+    .about-me p {
+        padding: 0 20px;
+    }
+
+    .courses button {
+        margin-bottom: 15px;
+        margin-left: 20px;
+    }
+
+    #course-list {
+        display: flex;
+        justify-content: center;
+    }
+
+    #course-list p {
+        font-size: .9rem;
+        flex: 1;
+    }
+
+    #total-credits {
+        padding: 10px;
+    }
+
+    footer p {
+        font-size: .85rem;
     }
 }

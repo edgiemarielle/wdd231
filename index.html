@@ -3,27 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD 231</title>
+    <title>WDD 231 - Course Home Page</title>
+    <meta name="description"
+        content="WDD 231 - Dynamic Web Fundamentals - Edgie Marielle Ambao | This Home Page contains brief information about me, courses I take, and projects I will make in this course.">
+    <meta name="author" content="Edgie Marielle Ambao">
 
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
+
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/dates.js" defer></script>
+    <script src="scripts/courses.js" defer></script>
 </head>
 <body>
     <header>
         <img src="images/code-square.svg" alt="Site Logo" width="48" height="48">
-        <span>Site Title</span>
-        <button id="ham-btn" class="hamburger"></button>
+        <span>Edgie Marielle A. Ambao</span>
+        <button id="ham-btn" class="hamburger" aria-label="navigation"></button>
     </header>
     <nav id="nav-bar" class="navigation">
         <ul>
             <li class="active"><a href="#" aria-current="page">Home</a></li>
-            <li><a href="#">Learning Activities</a></li>
+            <li><a href="#">Chamber Project</a></li>
             <li><a href="#">Final Project</a></li>
         </ul>
     </nav>
     <main>
         <h1>Home</h1>
+        <div class="cards">
+            <section class="about-me">
+                <h2>About Me</h2>
+                <p>My name is Edgie Marielle A. Ambao, I am from Batangas, Philippines. I am currently pursuing a degree in Software
+                Development. Some things that I enjoy doing are playing volleyball and spending time with my family, especially whenever
+                we visit and worship inside the temple. I come from a big family, we are 10 in the family including my parents. My
+                family is important to me and I hope to be with them for eternity.</p>
+            </section>
+            <section class="photo">
+                <h2>Student Photo</h2>
+                <img src="images/my-photo.jpg" alt="Student Photo" width="200" height="200">
+            </section>
+        </div>
+        <section class="courses">
+            <h2>Web Certificate Courses</h2>
+            <button id="all-courses" aria-label="all-courses">All Courses</button>
+            <button id="wdd-courses" aria-label="wdd">WDD Courses</button>
+            <button id="cse-courses" aria-label="cse">CSE Courses</button>
+            
+            <div id="total-credits"></div>
+            <div id="course-list"></div>
+        </section>
     </main>
     <footer>
         <div class="icons">
@@ -32,9 +61,8 @@
             <a href="https://www.instagram.com/edgiemarielle/" target="_blank"><img src="images/instagram.svg" alt="Instagram Profile" width="16" height="16"></a>
             <a href="https://www.facebook.com/edgiemarielle/" target="_blank"><img src="images/facebook.svg" alt="Github Profile" width="16" height="16"></a>
         </div>
-        <p>copyright symbol & year</p>
-        <p>Last Modified</p>
+        <p>©<span id="currentyear"></span> 💌Edgie Marielle Ambao💌 Philippines</p>
+        <p id="lastModified"></p>
     </footer>
-    <script src="scripts/navigation.js"></script>
 </body>
 </html>
