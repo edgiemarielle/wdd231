@@ -27,6 +27,7 @@
 
     .navigation a{
         border: none;
+        font-size: .9rem;
     }
 
     h1 {
@@ -55,11 +56,13 @@
 
     .about-me p {
         padding: 0 20px;
+        font-size: .9rem;
     }
 
     .courses button {
         margin-bottom: 15px;
         margin-left: 20px;
+        font-size: .9rem;
     }
 
     #course-list {
