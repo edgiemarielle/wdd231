@@ -111,6 +111,7 @@ main section h2 {
 
 #total-credits {
     padding: 15px;
+    font-size: .9rem;
 }
 
 .courses {
@@ -143,10 +144,6 @@ main section h2 {
 
 #course-list .not-completed {
     background-color: white;
-}
-
-#total-credits {
-    font-size: .9rem;
 }
 
 footer {
