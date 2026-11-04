@@ -1,0 +1,61 @@
+{
+    "newWardMember": {
+        "familyName": "Ambao",
+        "dateMoved": "November 2018",
+        "numberOfPeople": 10,
+        "visited": true,
+        "familyMembers": [
+            {
+                "name": "Em",
+                "gender": "Female",
+                "birthdate": "October 02, 2004"
+            },
+            {
+                "name": "Mae",
+                "gender": "Female",
+                "birthdate": "September 05, 2002"
+            },
+            {
+                "name": "Phyl",
+                "gender": "Male",
+                "birthdate": "December 03, 2000"
+            },
+            {
+                "name": "Edge",
+                "gender": "Female",
+                "birthdate": "October 01, 1998"
+            },
+            {
+                "name": "Edrhil",
+                "gender": "Male",
+                "birthdate": "December 22, 1996"
+            },
+            {
+                "name": "Kit",
+                "gender": "Male",
+                "birthdate": "February 23, 1994"
+            },
+            {
+                "name": "Malyn",
+                "gender": "Female",
+                "birthdate": "February 04, 1993"
+            },
+            {
+                "name": "Edmar",
+                "gender": "Male",
+                "birthdate": "November 28, 1991"
+            },
+            {
+                "name": "Lyn",
+                "gender": "Female",
+                "birthdate": "July 20, 1971"
+            },
+            {
+                "name": "Edgar",
+                "gender": "Male",
+                "birthdate": "February 21, 1963"
+            }
+        ]
+        
+    }
+}
