@@ -1,0 +1,106 @@
+@media only screen and (min-width: 32rem) {
+header,
+    .navigation,
+    main,
+    footer {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    header {
+        position: relative;
+        padding-bottom: 10px;
+    }
+
+    header img {
+        width: 48px;
+        height: auto;
+    }
+
+    header span {
+        font-size: 1.2rem;
+        padding-left: 30px;
+        padding-bottom: 15px;
+        font-weight: 400;
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    .navigation {
+        display: block;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        padding-top: 10px;
+    }
+
+    .navigation ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .navigation a {
+        padding: 10px 15px 10px 15px;
+        border-bottom: none;
+    }
+
+    #member-list.grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+        gap: 5px;
+    }
+
+    #member-list.list {
+        display: block;
+    }
+
+    #member-list.list section {
+        grid-template-columns: 1fr 1fr;
+        gap: .4rem;
+    }
+
+    #member-list.list section h2 {
+        text-align: center;
+        font-size: .9rem;
+    }
+
+    #member-list.list .company-info span{
+        display: flex;
+    }
+
+    section {
+        column-gap: 20px;
+    }
+
+    section img {
+        width: 130px;
+        height: 130px;
+        object-fit: cover;
+    }
+
+    section .company-info {
+        font-size: .7rem;
+        padding: 2px;
+    }
+
+    h1 {
+        padding-left: 20px;
+        font-size: 1.8rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    footer {
+        display: grid;
+        grid-template-columns: 1fr auto 1fr;
+        place-items: center;
+        line-height: 1.5;
+        padding: 20px;
+    }
+}

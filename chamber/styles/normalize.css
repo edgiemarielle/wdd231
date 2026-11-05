@@ -1,0 +1,11 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body, h1, p, ul {
+    margin: 0;
+}
+
+img {
+    width: 100%;
+}

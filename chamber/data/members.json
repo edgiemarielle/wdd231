@@ -1,0 +1,84 @@
+{
+ "info": [
+    {
+        "name": "Club Punta Fuego",
+        "address": "Brgy. Balaytigue, Nasugbu, Batangas",
+        "number": 639288438700,
+        "url": "www.clubpuntafuego.com.ph",
+        "image": "https://servicefinder.com.ph/uploads/photos/p1749078857.webp",
+        "membershipLevel": 3,
+        "yearFounded": 1990,
+        "email": "reservations.cpf@ahg.com.ph"
+    },
+    {
+        "name": "Central Azucarera Don Pedro",
+        "address": "Central, Nasugbu, Batangas",
+        "number": 63927863267,
+        "url": "www.centralazucarera.com",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0RNsQx451xbGj_A_NaeuJJ_m1GlebcllZrAR2ojsd_cmuvByos0rZH44&s=10",
+        "membershipLevel": 1,
+        "yearFounded": 1927,
+        "email": "central.azucarera@bsns.com"
+    },
+    {
+        "name": "DMB Fire and Safety Enterprises Int'l Inc.",
+        "address": "JP Rizal Ave., Nasugbu, Batangas",
+        "number": 639437234691,
+        "url": "www.dmbfire.com",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQm4iLSFO5pdrEMPBPcwBihKnJKRtvyPy1aEYPUyUv6wzsRk99bBORKogb6&s=10",
+        "membershipLevel": 1,
+        "yearFounded": 1984,
+        "email": "dmbfire@gmail.com"
+    },
+    {
+        "name": "Roxaco Land Corporation",
+        "address": "JP Laurel St., Nasugbu, Batangas",
+        "number": 63277517256,
+        "url": "https://roxaco.com/",
+        "image": "https://roxaco.com/wp-content/uploads/2022/10/IMG_4079-768x512-1.jpg",
+        "membershipLevel": 2,
+        "yearFounded": 1988,
+        "email": "info@roxaco.com"
+    },
+    {
+        "name": "El Cocinero by Chef Arnaldo",
+        "address": "JP Laurel St., Nasugbu, Batangas",
+        "number": 639162351669,
+        "url": "https://www.Elcocinerobychefarnaldo.com",
+        "image": "https://thequeensescape.com/wp-content/uploads/2018/06/LRM_EXPORT_20180622_163724-1.jpg",
+        "membershipLevel": 1,
+        "yearFounded": 2013,
+        "email": "nasugbuelcocinero@gmail.com"
+    },
+    {
+        "name": "Shoreland Beach Resort",
+        "address": "Brgy. Bucana, Nasugbu, Batangas",
+        "number": 639664535213,
+        "url": "bit.ly/CocotelShoreland",
+        "image": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RFQkZ2_RKBON3ovCxhPocF2Umm916g7YMO94HknwzHVCadA871rAZr9x_hSt6g_pnO2GKYonbAlnkBMTL7J-G9NyaF4l1ifmWjmNHyccGH5EHa181DZaX6cUwqHAlsPIJNUqjPpA=s1360-w1360-h1020-rw",
+        "membershipLevel": 2,
+        "yearFounded": 2021,
+        "email": "shorelandbeach@gmail.com"
+    },
+    {
+        "name": "Arta Enterprise",
+        "address": "JP Laurel St., Nasugbu, Batangas",
+        "number": 639499347262,
+        "url": "https://www.artaEnterpRise.com",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShBjzUwOYaBIaFbxIn_7udLVD9kUxmg8gVmj-9mfSGX2dyXeAGGMi-IMA&s=10",
+        "membershipLevel": 1,
+        "yearFounded": 2013,
+        "email": "arta.enterprise@gmail.com"
+    },
+    {
+        "name": "Manna-Tahiti Pearl Company Inc.",
+        "address": "JP Laurel St., Brgy. Pantalan, Nasugbu, Batangas",
+        "number": 639399154578,
+        "url": "https://mannatahiti.com/",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9u4vSesFsP_QWif59sV10Mv4pYh79kpMp-99GC6U9sMjVWJX4u0XvusY&s=10",
+        "membershipLevel": 1,
+        "yearFounded": 2004,
+        "email": "stanley.mannatahiti.com"
+    }
+    ]
+}
