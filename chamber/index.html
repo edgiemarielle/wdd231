@@ -25,7 +25,9 @@
 
     <script src="scripts/date.js" defer></script>
     <script src="scripts/navigation.js" defer></script>
-    <script src="scripts/directory.js" defer></script>
+    <script type="module" src="scripts/current-event.mjs"></script>
+    <script type="module" src="scripts/weather-section.mjs"></script>
+    <script type="module" src="scripts/spotlight.mjs"></script>
 </head>
 
 <body>
@@ -43,22 +45,33 @@
         </ul>
     </nav>
     <main>
-       <img src="images/business-meeting.jpg" alt="Business Meeting">
-       <button><a href="#">Join Us!</a></button>
+        <div class="hero">
+            <h1>Welcome to Batangas Chamber of Commerce!</h1>
+            <img src="images/business-meeting.jpg" alt="Business Meeting">
+            <a href="#">Join Us!</a>
+        </div>
+
        <section class="current-event">
-
+            <h2>Current Events</h2>
+            <div id="current-event"></div>
        </section>
+
        <section class="weather-section">
-
+            <div class="currrent-forecast">
+                <h2>Weather Forecast</h2>
+                <h4>Current Weather Forecast</h4>
+                <p>The current temperature in Nasugbu, Batangas is <span id="current-temp"></span></p>
+                <img id="weather-icon" src="" alt="">
+                <p id="weather-desc"></p>
+            </div>
+            <div class="three-day-forecast" id="three-day-forecast">
+                <h4>Three-Day Forecast</h4>
+            </div>
        </section>
-       <section class="spotlight-1">
 
-       </section>
-       <section class="spotlight-2">
-        
-       </section>
-       <section class="spotlight-3">
-
+       <section class="spotlight">
+            <h2>Company Spotlight</h2>
+            <div id="company-spotlight"></div>
        </section>
     </main>
     <footer>

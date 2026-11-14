@@ -187,3 +187,101 @@ footer p {
     justify-content: center;
     padding: 10px;
 }
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding-top: 0;
+}
+
+.hero h1 {
+    position: absolute;
+    /* top: 50px; */
+    left: 10px;
+    z-index: 1;
+    margin: 0;
+    padding: .5rem;
+    color: #00441B;
+    font-size: 15px;
+    text-align: center;
+}
+
+.hero a {
+    position: absolute;
+    bottom: 20px;
+    left: 140px;
+    font-size: 15px;
+    text-decoration: none;
+    border: 1px solid #05a645;
+    color: #00441B;
+    border-radius: 5px;
+    background-color: #e7e9d9;
+    padding: 8px;
+}
+
+#current-event, #weather-section, #spotlight {
+    display: flex;
+    flex-direction: column;
+    column-gap: 10px;
+    align-items: center;
+    background-color: beige;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.current-event, .spotlight {
+    display: block;
+}
+
+#current-event, #company-spotlight {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    align-items: stretch;
+}
+
+#current-event article, #company-spotlight article {
+    display: grid;
+    grid-template-columns: minmax(0, 120px) minmax(0, 1fr);
+    gap: 10px;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1px solid #cfd2b9;
+    border-radius: 10px;
+    background-color: white;
+    text-align: left;
+}
+
+#current-event article h3 {
+    grid-column: 1 / -1;
+    margin: 0;
+}
+
+#current-event article img {
+    width: 100%;
+    height: 120px;
+    padding-top: 0;
+    object-fit: cover;
+}
+
+#current-event article p {
+    margin: 0;
+}
+
+#company-spotlight {
+    padding-top: 15px;
+}
+
+.weather-section {
+    display: block;
+    text-align: center;
+}
