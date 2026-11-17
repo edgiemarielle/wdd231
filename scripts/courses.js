@@ -94,8 +94,12 @@ function displayAllCourse(courseArray) {
 
     courseArray.forEach(course => {
         const status = course.completed ? 'completed' : 'not-completed';
+        const courseCard = document.createElement('p');
 
-        courseList.innerHTML += `<p class="${status}">${course.subject} ${course.number} <span>${course.completed ? '✔' : ''}</span> </p>`;
+        courseCard.className = status;
+        courseCard.innerHTML = `${course.subject} ${course.number} <span>${course.completed ? '✔' : ''}</span>`
+        courseCard.addEventListener('click', () => displayCourseInfo(course));
+        courseList.append(courseCard);
     });
 
     const totalCredits = addCredits(courseArray);
