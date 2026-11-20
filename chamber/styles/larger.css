@@ -63,6 +63,11 @@ header,
         gap: .4rem;
     }
 
+    #member-list.list section h2 {
+        text-align: center;
+        font-size: .9rem;
+    }
+
     #member-list.list .company-info span{
         display: flex;
     }

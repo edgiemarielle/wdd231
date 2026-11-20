@@ -369,6 +369,7 @@ input[type="submit"]{
     margin-bottom: 15px;
     text-align: center;
     padding-bottom: 30px;
+    animation: card-enter 1s ease-in-out both;
 }
 
 .member-levels h3{
@@ -412,10 +413,6 @@ dialog h3{
 
 dialog ul{
     font-size: .8rem;
-}
-
-.member-levels{
-    animation: card-enter 1s ease-in-out both;
 }
 
 @keyframes card-enter {
