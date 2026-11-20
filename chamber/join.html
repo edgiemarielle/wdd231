@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 231 - Join Page</title>
+    <meta name="description"
+        content="WDD 231 - Web Frontend Development | This page contains information about the benefit of joining the chamber and a membership application form. There are three membership level options of non-profit, silver, and gold.">
+    <meta name="author" content="Edgie Marielle Ambao">
+    <meta property="og:title" content="WDD 231 - Chamber of Commerce Join Page">
+    <meta property="og:description"
+        content="WDD 231 - Web Frontend Development | This page contains information about the benefit of joining the chamber and a membership application form. There are three membership level options of non-profit, silver, and gold.">
+    <meta property="og:image" content="https://edgiemarielle.github.io/wdd231/chamber/images/commerce.svg">
+    <meta property="og:url" content="https://edgiemarielle.github.io/wdd231/">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400..700;1,400..700&display=swap"
+        rel="stylesheet">
+    <link rel="icon" href="favicon.ico">
+
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/membership-level.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <img src="images/commerce.svg" alt="Site Logo" width="48" height="48">
+        <span>Batangas Chamber of Commerce</span>
+        <button id="ham-btn" class="hamburger" aria-label="navigation"></button>
+    </header>
+    <nav id="nav-bar" class="navigation">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="directory.html">Directory</a></li>
+            <li class="active"><a href="join.html" aria-current="page">Join</a></li>
+            <li><a href="#">Discover</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1 class="join-h1">Join</h1>
+        <div class="join-page">
+            <div class="application">
+                <h2 class="join-h2">Membership Application Form</h2>
+                <form method="get" action="thankyou.html">
+                    <label for="fname">First Name:
+                        <input type="text" id="fname" name="fname" title="First name" autocomplete="given-name" required>
+                    </label>
+                    <label for="lname">Last Name:
+                        <input type="text" id="lname" name="lname" title="Last name" autocomplete="family-name" required>
+                    </label>
+                    <label for="title">Organizational Title:
+                        <input type="text" id="title" name="title" title="Organizational title"
+                            autocomplete="organization-title" pattern="[A-Za-z][A-Za-z -]{6,}">
+                    </label>
+                    <label for="email">Email Address:
+                        <input type="email" id="email" name="email" title="Email Address" autocomplete="email"
+                            placeholder="ex.: juandelacruz@gmail.com" required>
+                    </label>
+                    <label for="number">Phone Number:
+                        <input type="tel" id="number" name="number" title="Phone Number" autocomplete="tel" required>
+                    </label>
+                    <label for="orgName">Business/Organization's Name:
+                        <input type="text" id="orgName" name="orgName" title="Organization's Name" autocomplete="organization"
+                            required>
+                    </label>
+                    <label for="membership">Membership Level
+                        <select id="membership" name="membership" required>
+                            <option value="" disabled selected>Select a Membership Level...</option>
+                            <option value="np">Non Profit Membership</option>
+                            <option value="bronze">Bronze Membership</option>
+                            <option value="silver">Silver Membership</option>
+                            <option value="gold">Gold Membership</option>
+                        </select>
+                    </label>
+                    <label for="description">Description:
+                        <textarea name="description" id="description" title="Description"></textarea>
+                    </label>
+                    <input type="hidden" name="timestamp" id="timestamp">
+                    <input type="submit" value="Apply Now!">
+                </form>
+            </div>
+    
+            <div class="levels">
+                <h2>Membership Levels</h2>
+                <div class="member-levels">
+                    <h3>Non Profit Membership Level</h3>
+                        <a href="#np-dialog" id="non-profit">Learn More</a>
+                </div>
+                <div class="member-levels">
+                    <h3>Bronze Membership Level</h3>
+                        <a href="#b-dialog" id="bronze">Learn More</a>
+                    </div>
+                <div class="member-levels">
+                    <h3>Silver Membership Level</h3>
+                        <a href="#s-dialog" id="silver">Learn More</a>
+                </div>
+                <div class="member-levels">
+                    <h3>Gold Membership Level</h3>
+                        <a href="#g-dialog" id="gold">Learn More</a>
+                </div>
+            </div>
+        </div>
+    
+            <dialog id="np-dialog">
+                <button class="closeModal">Close</button>
+            </dialog>
+    
+            <dialog id="b-dialog">
+                <button class="closeModal">Close</button>
+            </dialog>
+    
+            <dialog id="s-dialog">
+                <button class="closeModal">Close</button>
+            </dialog>
+    
+            <dialog id="g-dialog">
+                <button class="closeModal">Close</button>
+            </dialog>
+    </main>
+    <footer>
+        <div class="left">
+            <p>Batangas Chamber of Commerce</p>
+            <p>Nasugbu, Batangas, Philippines</p>
+            <p>batangas@ccc.org</p>
+            <p>+639761002004</p>
+        </div>
+        <div class="icons">
+            <a href="https://github.com/edgiemarielle/wdd231" target="_blank"><img src="images/github.svg"
+                    alt="Github Profile" width="48" height="48"></a>
+            <a href="https://www.linkedin.com/in/edgie-marielle-ambao-47a4b13b5/details/education/" target="_blank"><img
+                    src="images/linkedin.svg" alt="LinkedIn Profile" width="48" height="48"></a>
+            <a href="https://www.instagram.com/edgiemarielle/" target="_blank"><img src="images/instagram.svg"
+                    alt="Instagram Profile" width="48" height="48"></a>
+            <a href="https://www.facebook.com/edgiemarielle/" target="_blank"><img src="images/facebook.svg"
+                    alt="Github Profile" width="48" height="48"></a>
+        </div>
+        <div class="right">
+            <p>WDD231 Class Project</p>
+            <p>Edgie Marielle A. Ambao</p>
+            <p>©<span id="currentYear"></span> Batangas Chamber of Commerce</p>
+            <p id="lastModified"></p>
+        </div>
+    </footer>
+</body>
+
+</html>

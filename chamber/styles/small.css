@@ -284,3 +284,192 @@ footer p {
     display: block;
     text-align: center;
 }
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form :focus-visible{
+    outline: 3px solid #176b35;
+    outline-offset: 2px;
+}
+
+.join-h2{
+    padding-top: 20px;
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+label {
+    font-size: .8rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    margin-bottom: 10px;
+    width: 100%;
+    max-width: 300px;
+    box-sizing: border-box;
+    padding-left: 25px;
+    color: #00441B;
+    font-weight: 700;
+}
+
+select {
+    padding: 5px;
+    border: 1px solid #bdbdbd;
+    border-radius: 5px;
+}
+
+input{
+    padding: 5px;
+}
+
+input[type="text"], input[type="email"], input[type="tel"]{
+    border: 1px solid #bdbdbd;
+    border-left: 4px solid red;
+    border-radius: 5px;
+}
+
+input[type="text"]#title, textarea{
+    border: 1px solid #bdbdbd;
+    border-left: 4px solid green;
+    border-radius: 5px;
+}
+
+textarea{
+    height: auto;
+    margin-bottom: 20px;
+}
+
+input[type="submit"]{
+    width: 100%;
+    max-width: 200px;
+    padding: 8px;
+    margin-left: 25px;
+    background-color: #bbe0c1;
+    border-radius: 5px;
+    font-size: .9rem;
+    font-weight: 700;
+    color: #00441B;
+    border: 1px solid #00441B;
+}
+
+.levels h2{
+    padding-top: 50px;
+    font-size: 1.1rem;
+    border: none;
+}
+
+.member-levels{
+    border-radius: 20px;
+    background-color: #1b5e20;
+    color: #fff;
+    padding: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.member-levels h3{
+    font-size: 1rem;
+    padding-bottom: 10px;
+}
+
+.member-levels a{
+    font-size: .8rem;
+    text-decoration: none;
+    border: 1px solid #05a645;
+    padding: 8px;
+    background-color: #bbe0c1;
+    color: #00441B;
+    border-radius: 10px;
+    font-weight: 700;
+}
+
+dialog{
+    width: 100%;
+    max-width: 320px;
+    border-radius: 5px;
+    border-color: #82b58b;
+}
+
+dialog .closeModal{
+    position: absolute;
+    right: 20px;
+}
+
+dialog h2{
+    text-align: left;
+    font-size: 1.2rem;
+    color: #00441B;
+}
+
+dialog h3{
+    font-size: .9rem;
+    color: #00441B;
+}
+
+dialog ul{
+    font-size: .8rem;
+}
+
+.member-levels{
+    animation: card-enter 1s ease-in-out both;
+}
+
+@keyframes card-enter {
+    from{
+        opacity: 0;
+        transform: translateY(16px);
+    }
+
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+#form-info {
+    width: 100%;
+    min-height: 55vh;
+    background-color: #e2dfda;
+    padding: 10px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+#form-info h1 {
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 20px;
+}
+
+#form-info .info {
+    padding-bottom: 10px;
+    padding-left: 10px;
+    color: #00441B;
+    font-size: 1rem;
+    text-decoration: underline;
+}
+
+#form-info .member-info {
+    padding-left: 30px;
+}
+
+#form-info p {
+    font-size: .9rem;
+    line-height: 1.8;
+}
+
+#form-info .success {
+    text-align: center;
+    font-size: 13px;
+    padding-bottom: 15px;
+}
+
+#form-info .date {
+    padding-top: 40px;
+    text-align: right;
+    font-size: .7rem;
+}

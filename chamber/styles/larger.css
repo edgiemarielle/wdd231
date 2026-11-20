@@ -133,4 +133,56 @@ header,
         grid-template-columns: minmax(0, 350px) minmax(0, 1fr);
 
     }
+
+    .join-page{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 8rem;
+        align-items: start;
+    }
+
+    label{
+        margin-bottom: 20px;
+    }
+
+    .application{
+        padding-top: 30px;
+    }
+
+    dialog{
+        max-width: 350px;
+    }
+
+    input[type="submit"]{
+        margin-bottom: 30px;
+    }
+
+    #form-info {
+        width: 100%;
+    }
+
+    #form-info h1 {
+        font-size: 1.8rem;
+    }
+
+    #form-info .success {
+        font-size: 1rem;
+        padding-bottom: 20px;
+    }
+
+    #form-info .info {
+        padding-left: 50px;
+        padding-bottom: 15px;
+    }
+
+    #form-info .member-info {
+        padding-left: 130px;
+        line-height: 1.9rem;
+    }
+
+    #form-info .date {
+        font-size: .8rem;
+        padding-right: 10px;
+        padding-top: 10px;
+    }
 }
