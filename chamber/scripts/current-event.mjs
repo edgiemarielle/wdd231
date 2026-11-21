@@ -1,7 +1,7 @@
 const events = [
     {
         title: "Voter Registration",
-        img: "https://www.batangascity.gov.ph/web/images/News/2026/November/11/e/01.jpg",
+        img: "images/voter-registration.jpg",
         desc: "Residents have been turning out heavily for the first days of voter registration at the Batangas City Official Website tracking local civic activities."
     },
     {

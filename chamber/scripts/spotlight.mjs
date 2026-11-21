@@ -16,9 +16,16 @@ async function getSpotlightInfo() {
 }
 
 function displaySpotlight(members) {
-    const membersToDisplay = members
-        .filter((member) => member.membershipLevel === 2 || member.membershipLevel === 3)
-        .slice(0, 3);
+    const eligibleMembers = members.filter(
+        (member) => member.membershipLevel === 2 || member.membershipLevel === 3);
+    
+    for (let index = eligibleMembers.length - 1; index > 0; index--){
+        const randomIndex = Math.floor(Math.random() * (index + 1));
+        [eligibleMembers[index], eligibleMembers[randomIndex]] =
+            [eligibleMembers[randomIndex], eligibleMembers[index]];
+    }    
+        
+    const membersToDisplay = eligibleMembers.slice(0, 3);
     
     membersToDisplay.forEach((member) => {
         const card = document.createElement('article');
