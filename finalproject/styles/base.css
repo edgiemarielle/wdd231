@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #85a9ab;
+    padding: 10px;
+}
+
+h1, h2 {
+    font-family: "Dancing Script";
+    color: #001c47;
+}
+
+main{
+    background-color: #e5e7db;
+    padding: 10px;
+    padding-bottom: 20px;
+}
+
+p{
+    font-family: "Lora";
+    font-size: 14px;
+    padding: 10px 0 5px 30px;
+}
+
+.wireframes p {
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
