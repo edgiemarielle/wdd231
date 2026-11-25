@@ -1,0 +1,15 @@
+@media only screen and (min-width: 38rem){
+    
+    #attractions div {
+        
+        grid-template-areas:
+            "name name"
+            "image description"
+            "image address"
+            "button button";
+    }
+
+    #attractions div h2 {
+        font-size: 22px;
+    }
+}

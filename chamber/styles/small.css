@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: "Libre Baskerville", sans-serif;
 }
@@ -130,7 +134,7 @@ h1 {
 
 section {
     display: grid;
-    grid-template-columns: 120px 1fr;
+    grid-template-columns: minmax(0, 120px) minmax(0, 1fr);
     column-gap: 10px;
     align-items: center;
     border: 1px solid #cfd2b9;
@@ -156,6 +160,8 @@ section .company-info {
     line-height: 1.7;
     font-size: .5rem;
     white-space: pre-line;
+    min-width: 0;
+    overflow-wrap: anywhere;
 }
 
 h2 {
@@ -195,6 +201,7 @@ footer p {
 .hero img {
     display: block;
     width: 100%;
+    max-width: none;
     height: auto;
     padding-top: 0;
 }
@@ -213,7 +220,8 @@ footer p {
 .hero a {
     position: absolute;
     bottom: 20px;
-    left: 140px;
+    left: 50%;
+    transform: translateX(-50%);
     font-size: 15px;
     text-decoration: none;
     border: 1px solid #05a645;
@@ -469,4 +477,66 @@ dialog ul{
     padding-top: 40px;
     text-align: right;
     font-size: .7rem;
+}
+
+#attractions div {
+    margin: 10px 10px 20px 10px;
+    border: 1px solid #cfd2b9;
+    background-color: beige;
+    border-radius: 8px;
+    overflow: hidden;
+    padding: 20px;
+
+    display: grid;
+    grid-template-areas:
+    "name"
+    "image"
+    "description"
+    "address"
+    "button";
+}
+
+#attractions div h2 {
+    color: #1b5e20;
+    border: none;
+    grid-area: name;
+    text-align: left;
+}
+
+#attractions div img{
+    width: 100%;
+    align-self: center;
+    grid-area: image;
+}
+
+#attractions div p {
+    margin: 20px 10px;
+    font-size: 14px;
+    grid-area: description;
+}
+
+#attractions div address {
+    margin: 10px;
+    font-size: 14px;
+    grid-area: address;
+}
+
+#attractions div button {
+    padding: 10px;
+    margin: 20px 0px 10px;
+    align-self: center;
+    width: 100%;
+    border: 2px solid#1b5e20;
+    border-radius: 20px;
+    background-color: #bbe0c1;
+    color: #00441b;
+    font-family: "Libre Baskerville", sans-serif;
+    font-weight: 600;
+    grid-area: button;
+}
+
+#visit {
+    padding: 10px;
+    margin-left: 10px;
+    font-style: italic;
 }
