@@ -14,7 +14,7 @@ h1, h2 {
 }
 
 main{
-    background-color: #e5e7db;
+    background-color: #D3D4CC;
     padding: 10px;
     padding-bottom: 20px;
 }
@@ -22,6 +22,7 @@ main{
 p{
     font-family: "Lora";
     font-size: 14px;
+    color: #001c47;
     padding: 10px 0 5px 30px;
 }
 
